@@ -1,4 +1,15 @@
-<?php
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <?php
 
 $db=mysqli_connect ("b-studentsql-1.usn.no", "ceheg4872", "4c41ceheg4872", "ceheg4872");
 
@@ -36,16 +47,6 @@ for ($i=1; $i<=$antallRader; $i++) {
 }
  echo "</table>";
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <div class="knapper">
         <button><a href="index.html">Tilbake til forsiden</a></button>
         <button><a href="visklasse.php">Vis klasser</a></button>
