@@ -6,7 +6,7 @@ $klassekode = $_POST['klassekode'];
 $studiumkode = $_POST['studiumkode'];
 
 /* Isteden for '[value-1]', '[value-2]', '[value-3]', bruk $variabel */
-$sqlSetning = "INSERT INTO `klasse`(`klassekode`, `klassenavn`, `studiumkode`) VALUES ('$klassekode','$navn','$studiumkode')";
+$sqlSetning = "INSERT INTO `klasse`(`navn`, `klassenavn`, `studiumkode`) VALUES ('$klassekode','$navn','$studiumkode')";
 $sqlResultat=mysqli_query($db,$sqlSetning);
 
 ?>
