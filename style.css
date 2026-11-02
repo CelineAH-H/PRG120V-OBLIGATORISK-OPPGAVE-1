@@ -4,20 +4,10 @@ body {
     justify-content: center; 
     align-items: center; 
     min-height: 100vh; 
-    background-color: #dc8181;
+    background-color: #fadada;
 }
 
 .knapper {
     text-align: center;
 }
 
-table{
-    background-color: #f2f2f2;
-    border-collapse: collapse;
-}
-
-th, td {
-    background-color: #f2f2f2;
-    border: 1px solid #810c0c;
-    padding: 7px;
-}
