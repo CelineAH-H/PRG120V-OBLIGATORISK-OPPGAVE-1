@@ -11,9 +11,9 @@ print("Klassen er nå lagt til i databasen <br>");
 
 $antallRader=mysqli_num_rows($sqlResultat);
 
-$rad=mysqli_fetch_array($sqlResultat);
 
 for ($i=1; $i<=$antallRader; $i++) {
+    $rad=mysqli_fetch_array($sqlResultat);
     $klassekode=$rad["klassekode"];
     $klassenavn=$rad["klassenavn"];
     $studiumkode=$rad["studiumkode"];
