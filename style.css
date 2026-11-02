@@ -3,3 +3,8 @@ body {
     align-items: center;
     place-content: center;
 }
+
+.knapper {
+    margin-top: 20px;
+    display: block;
+}
