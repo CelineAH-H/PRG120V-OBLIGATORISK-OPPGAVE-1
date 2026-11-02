@@ -4,7 +4,8 @@ body {
     justify-content: center; 
     align-items: center; 
     min-height: 100vh; 
-
+    background-color: #dc8181;
+}
 
 .knapper {
     text-align: center;

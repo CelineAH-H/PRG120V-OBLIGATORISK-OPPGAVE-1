@@ -48,7 +48,7 @@ for ($i=1; $i<=$antallRader; $i++) {
 <body>
     <div class="knapper">
         <button><a href="index.html">Tilbake til forsiden</a></button>
-        <button><a href="visstudent.php">Vis studenter</a></button>
+        <button><a href="visklasse.php">Vis klasser</a></button>
     </div>
 </body>
 </html>
