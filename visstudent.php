@@ -46,6 +46,7 @@ for ($i=1; $i<=$antallRader; $i++) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <br>
     <button><a href="index.html">Tilbake til forsiden</a></button>
     <button><a href="visklasse.php">Vis klasser</a></button>
 </body>
