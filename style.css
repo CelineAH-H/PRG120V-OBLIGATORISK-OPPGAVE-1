@@ -11,6 +11,6 @@ body {
     text-align: center;
 }
 
-table {
+table, th, td {
     background-color: #f2f2f2;
 }
