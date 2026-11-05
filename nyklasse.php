@@ -19,6 +19,7 @@ $sqlResultat=mysqli_query($db,$sqlSetning);
     <title>Ny klasse</title>
 </head>
 <body>
- 
+    <h2>Klasse registrert</h2>
+    <p>Klassen har blitt registrert i databasen.</p>
 </body>
 </html>
