@@ -71,7 +71,7 @@ if (! ($brukernavn && $fornavn && $etternavn && $klassekode))
 </head>
 <body>
     <div class="knapper">
-        <button><a href="index.html">Tilbake til forsiden</a>Tilbake til forsiden</button>
+        <button><a href="index.html">Tilbake til forsiden</a></button>
     </div>
 </body>
 </html>
