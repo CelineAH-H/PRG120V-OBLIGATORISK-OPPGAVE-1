@@ -24,7 +24,8 @@ while (
 ?>
 </select><br>
 <input type="submit" value="Registrer student" id="registrerStudentKnapp" name="registrerStudentKnapp">
-<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/> <br />
+<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/> 
+<input type="button" value="Tilbake" onclik="Window.location.herf='index.html';> <br/>
 </form>
 
 <?php
