@@ -11,6 +11,7 @@ body {
     text-align: center;
 }
 
-input {
+select {
     align-items: center;
+    justify-content: center;
 }
