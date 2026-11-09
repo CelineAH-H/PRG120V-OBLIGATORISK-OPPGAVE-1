@@ -1,5 +1,5 @@
 <?php
-inlude("db-kobling.php");
+include("db-kobling.php");
 ?>
 
 <h1>Registrer student</h1>
