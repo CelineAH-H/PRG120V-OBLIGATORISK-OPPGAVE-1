@@ -42,7 +42,7 @@ if (! ($brukernavn && $fornavn && $etternavn && $klassekode))
     }
     else {
 
-    $sqlSetning = "INSERT * INTO student WHERE brukernavn='$brukernavn'";
+    $sqlSetning = "SELECT * FROM student WHERE brukernavn='$brukernavn';";
     $sqlResultat = mysqli_query($db, $sqlSetning) or die ("Det er ikke mulig &aring; hente data fra databasen");
     $antallRader = mysqli_num_rows($sqlResultat);
 
