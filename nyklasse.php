@@ -57,6 +57,8 @@ if
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="knapper">
+        <button><a href="index.html">Tilbake til forsiden</a></button>
+    </div>
 </body>
 </html>

@@ -49,3 +49,18 @@ if (isset($_POST['slett'])) {
            onclick="return confirm('Er du sikker?')">
 
 </form>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slett klasse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="knapper">
+        <button><a href="index.html">Tilbake til forsiden</a></button>
+    </div>
+</body>
+</html>
