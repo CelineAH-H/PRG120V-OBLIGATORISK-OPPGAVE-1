@@ -1,6 +1,5 @@
 <?php
-$db = mysqli_connect("b-studentsql-1.usn.no", "ceheg4872", "4c41ceheg4872", "ceheg4872");
-
+inlude("db-kobling.php");
 ?>
 
 <h1>Registrer student</h1>
@@ -9,7 +8,7 @@ Brukernavn: <input type="text" name="brukernavn" id="brukernavn" required><br>
 Fornavn: <input type="text" name="fornavn" id="fornavn" required><br>
 Etternavn: <input type="text" name="etternavn" id="etternavn" required><br>
 Klassekode: <select id="klassekode" name="klassekode" required>
-    
+
 <?php
 $sqlSetning = "SELECT klassekode, klassenavn FROM klasse ORDER BY klassekode";
 $sqrResultat = mysqli_query($db, $sqlSetning) or die ("Ikke mulig å hente data fra databasen");
