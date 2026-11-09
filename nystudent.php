@@ -24,7 +24,7 @@ while (
 ?>
 </select><br>
 <input type="submit" value="Registrer student" id="registrerStudentKnapp" name="registrerStudentKnapp">
-<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/>; <br/>
+<input type="reset" value="Nullstill" id="nullstill" name="nullstill"/> <br/>
 </form>
 
 <?php
@@ -71,7 +71,7 @@ if (! ($brukernavn && $fornavn && $etternavn && $klassekode))
 </head>
 <body>
     <div class="knapper">
-        <button><a href="index.html"></a>Tilbake til forsiden</button>
+        <button><a href="index.html">Tilbake til forsiden</a>Tilbake til forsiden</button>
     </div>
 </body>
 </html>
