@@ -12,10 +12,10 @@
     {
         $rad=mysqil_fetch_array($sqlResultat);
         $brukernavn=$rad[0];
-        $fornavn=rad[1];
-        $etternavn=rad[2];
-        $klasseNavn=rad[3];
-        $klasseKode=rad[4];
+        $fornavn=$rad[1];
+        $etternavn=$rad[2];
+        $klasseNavn=$rad[3];
+        $klasseKode=$rad[4];
 
         print("<tr> <td> $brukernavn </td> <td> $fornavn </td> <td> $etternavn </td> <td> $klasseNavn </td> <td> $klasseKode</td> </td>");
     }
