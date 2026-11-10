@@ -16,6 +16,7 @@ if (isset($_POST['slett'])) {
 }
 ?>
 
+<h1>Slett Student</h1>
 <form method="post">
     <label>Ny student:</label>
 
