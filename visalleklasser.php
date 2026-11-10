@@ -1,3 +1,4 @@
+<h1>Vis alle klasser</h1>
 <?php
    include("db-kobling.php");
 
@@ -24,7 +25,7 @@
 
 ?>
 
-<h1>Vis alle klasser</h1>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
