@@ -6,6 +6,7 @@ body {
     background-color: #fadada;
 }
 
+
 .knapper {
     text-align: center;
 }
@@ -15,10 +16,6 @@ select {
     justify-content: center;
 }
 
-
-body {
-    background-color: #fadada;
-}
 
 .meny {
     display: flex;
