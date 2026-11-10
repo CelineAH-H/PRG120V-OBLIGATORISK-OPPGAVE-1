@@ -16,3 +16,12 @@ select {
     justify-content: center;
 }
 
+.meny {
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+}
+
+.seksjon {
+    text-align: center;
+}
