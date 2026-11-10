@@ -1,4 +1,16 @@
-<?php
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vis studnet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Alle studentene</h1>
+    <?php
 include("db-kobling.php");
 ?>
 
@@ -37,16 +49,6 @@ for ($i=1; $i<=$antallRader; $i++) {
 }
  echo "</table>";
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vis studnet</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
     <div class="knapper">
         <button><a href="index.html">Tilbake til forsiden</a></button>
         <button><a href="visklasse.php">Vis klasser</a></button>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Vis klassene</h1>
+    <h1>Viser alle klassene</h1>
 <?php
 include("db-kobling.php");
 ?>
