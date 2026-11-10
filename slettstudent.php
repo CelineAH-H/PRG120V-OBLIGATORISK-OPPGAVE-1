@@ -18,7 +18,7 @@ if (isset($_POST['slett'])) {
 
 
 <form method="post">
-    <label>Ny student:</label>
+    <label>Velg student:</label>
 
     <select name="brukernavn">
         <?php
