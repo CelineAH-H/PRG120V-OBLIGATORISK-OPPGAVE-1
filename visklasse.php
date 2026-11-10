@@ -1,7 +1,9 @@
+
 <?php
+include("db-kobling.php");
+?>
 
-$db=mysqli_connect ("b-studentsql-1.usn.no", "ceheg4872", "4c41ceheg4872", "ceheg4872");
-
+<?php
 
 /*$sqlSetning = "INSERT INTO `klasse`(`klassekode`, `klassenavn`, `studiumkode`) VALUES ('ØKLED','Økonomi og ledelse','ØKLEDH26')";*/
 $sqlSetning = "SELECT * FROM klasse";
