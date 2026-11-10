@@ -24,6 +24,7 @@
 
 ?>
 
+<h1>Vis alle klasser</h1>
 <!DOCTYPE html>
 <html lang="en">
 <head>
